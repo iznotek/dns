@@ -1,7 +1,7 @@
 package roles
 
 import (
-	"github.com/akrantz01/krantz.dev/dns/util"
+	"github.com/iznotek/dns/util"
 	bolt "go.etcd.io/bbolt"
 	"net/http"
 )

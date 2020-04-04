@@ -3,8 +3,8 @@ package users
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/akrantz01/krantz.dev/dns/db"
-	"github.com/akrantz01/krantz.dev/dns/util"
+	"github.com/iznotek/dns/db"
+	"github.com/iznotek/dns/util"
 	bolt "go.etcd.io/bbolt"
 	"gopkg.in/hlandau/passlib.v1"
 	"net/http"

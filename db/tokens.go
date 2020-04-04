@@ -25,7 +25,7 @@ func NewToken(user User, db *bolt.DB) (string, error) {
 	// Create claims
 	claims := &jwt.StandardClaims{
 		ExpiresAt: time.Now().Unix() + (60*60*24),
-		Issuer: "dns.krantz.dev",
+		Issuer: "dns.iznow",
 		IssuedAt: time.Now().Unix(),
 		Subject: user.Username,
 	}

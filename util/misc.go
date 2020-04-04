@@ -2,7 +2,7 @@ package util
 
 import (
 	"fmt"
-	"github.com/akrantz01/krantz.dev/dns/db"
+	"github.com/iznotek/dns/db"
 )
 
 // Check if a value exists within a map
